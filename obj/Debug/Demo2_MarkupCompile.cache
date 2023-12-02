@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\App.xaml
-3-1274727667
+4-1932260080
 
-101840776887
+13319938345
 13-1310406943
-View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;
+View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;View\MyUserControls\UcSalle.xaml;
 
-True
+False
 

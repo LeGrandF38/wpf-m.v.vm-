@@ -17,3 +17,24 @@ C:\Users\DELL\source\repos\Demo2\obj\Debug\Demo2.csproj.GenerateResource.cache
 C:\Users\DELL\source\repos\Demo2\obj\Debug\Demo2.csproj.CoreCompileInputs.cache
 C:\Users\DELL\source\repos\Demo2\obj\Debug\Demo2.exe
 C:\Users\DELL\source\repos\Demo2\obj\Debug\Demo2.pdb
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\bin\Debug\Demo2.exe.config
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\bin\Debug\Demo2.exe
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\bin\Debug\Demo2.pdb
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.csproj.AssemblyReference.cache
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MainWindow.g.cs
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MyUserControls\UcEtudiant.g.cs
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MyUserControls\UcLogin.g.cs
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\App.g.cs
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2_MarkupCompile.cache
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2_MarkupCompile.lref
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MainWindow.baml
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MyUserControls\UcEtudiant.baml
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MyUserControls\UcLogin.baml
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.g.resources
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.Properties.Resources.resources
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.csproj.GenerateResource.cache
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.csproj.CoreCompileInputs.cache
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.exe
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\Demo2.pdb
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MyUserControls\UcSalle.g.cs
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\View\MyUserControls\UcSalle.baml

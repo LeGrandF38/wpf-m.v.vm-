@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\DELL\source\repos\Demo2\obj\Debug\
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\
 Demo2
 none
 false
 DEBUG;TRACE
-C:\Users\DELL\source\repos\Demo2\App.xaml
-3-1274727667
+B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\App.xaml
+4-1932260080
 
-11-241311731
+14-1762150273
 13-1310406943
-View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;
+View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;View\MyUserControls\UcSalle.xaml;
 
 False
 
