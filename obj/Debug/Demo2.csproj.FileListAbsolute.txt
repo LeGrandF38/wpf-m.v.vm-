@@ -61,3 +61,5 @@ C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\Demo2.exe
 C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\Demo2.pdb
 C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\View\DataEntry\StudentDataEntry.g.cs
 C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\View\DataEntry\StudentDataEntry.baml
+C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\View\DataEntry\SalleDataEntry.g.cs
+C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\View\DataEntry\SalleDataEntry.baml

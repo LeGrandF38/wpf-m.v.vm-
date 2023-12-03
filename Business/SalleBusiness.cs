@@ -12,12 +12,21 @@ namespace Demo2.Business
     {
 
         #region proprietes
-        public ObservableCollection<Salle> ListOfSalle { get; set; }
+        public ObservableCollection<Salle> ListOfObject { get; set; }
+        public Salle SelectedItem { get; set; }
+        public string BusinessLabel  { get; set; }
+        public string AddButton { get; set; }
+        public string EditButton { get; set; }
+        public string RemoveButton { get; set; }
         #endregion
         #region constructeur
         public SalleBusiness()
         {
-            ListOfSalle = new ObservableCollection<Salle>();
+            BusinessLabel = "Gestion Salles";
+            AddButton = "Ajouter Salle";
+            EditButton = "Editer Salle";
+            RemoveButton = "Supprimer Salle";
+            ListOfObject = new ObservableCollection<Salle>();
 
             for (int i = 0; i < 10; i++)
             {
@@ -25,7 +34,7 @@ namespace Demo2.Business
                 salle.Id = i;
                 salle.Number = "salle numero " + i.ToString();
 
-                ListOfSalle.Add(salle);
+                ListOfObject.Add(salle);
             }
         }
         #endregion

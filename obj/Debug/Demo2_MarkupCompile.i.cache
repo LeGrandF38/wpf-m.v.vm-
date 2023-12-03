@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\App.xaml
-5-1602608544
+6-1869800728
 
-15-1811449013
+16-143224805
 13-1310406943
-View\DataEntry\StudentDataEntry.xaml;View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;View\MyUserControls\UcSalle.xaml;
+View\DataEntry\SalleDataEntry.xaml;View\DataEntry\StudentDataEntry.xaml;View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;View\MyUserControls\UcSalle.xaml;
 
 True
 

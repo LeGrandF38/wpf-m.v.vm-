@@ -11,13 +11,21 @@ namespace Demo2.Business
     public class ETudiantBusiness
     {
         //public List<Etudiant>   ListOfStudent { get; set; }
-        public ObservableCollection<Etudiant> ListOfStudent { get; set; }
+        public ObservableCollection<Etudiant> ListOfObject { get; set; }
 
-        public Etudiant SelectedStudent { get; set; }
+        public Etudiant SelectedItem { get; set; }
+        public string BusinessLabel { get; set; }
+        public string AddButton { get; set; }
+        public string EditButton { get; set; }
+        public string RemoveButton { get; set; }
 
         public ETudiantBusiness()
         {
-            ListOfStudent = new ObservableCollection<Etudiant>();
+            BusinessLabel = "Gestion Etudiant";
+            AddButton = "Ajouter Etudiant";
+            EditButton = "Editer Etudiant";
+            RemoveButton = "Supprimer Etudiant";
+            ListOfObject = new ObservableCollection<Etudiant>();
 
             for (int i = 0; i < 5; i++) 
             {
@@ -25,7 +33,7 @@ namespace Demo2.Business
                 etudiant.Id = i;
                 etudiant.Email = "email@gamil.com  : " + i.ToString();
 
-                ListOfStudent.Add(etudiant);    
+                ListOfObject.Add(etudiant);    
             }
         }
     }

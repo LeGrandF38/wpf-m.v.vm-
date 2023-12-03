@@ -1,4 +1,5 @@
 ﻿using Demo2.Business;
+using Demo2.Model;
 using Demo2.View.MyUserControls;
 using System;
 using System.Collections.Generic;
@@ -46,23 +47,23 @@ namespace Demo2
             grContent.Children.Add(ucLogin);
 
         }
-
-        private void btnGestionEtudiant(object sender, RoutedEventArgs e)
+        View.MyUserControls.UcEtudiant ucEtudiant;
+        public void btnGestionEtudiant(object sender, RoutedEventArgs e)
         {
             ETudiantBusiness etudiantBusiness = new ETudiantBusiness();
-            UcEtudiant ucEtudiant = new UcEtudiant();
+            ucEtudiant = new UcEtudiant();
             ucEtudiant.DataContext = etudiantBusiness;
+            grContent.Children.Clear();
+            grContent.Children.Add((ucEtudiant));
 
 
         }
 
         private void btnGestionSalle_click(object sender, RoutedEventArgs e)
         {
-            UcSalle ucSalle = new UcSalle();
-            SalleBusiness salleBusiness = new SalleBusiness();
-            ucSalle.DataContext = salleBusiness;
-            grContent.Children.Clear();
-            grContent.Children.Add((ucSalle));
+           
+            SalleBusiness selleBusiness = new SalleBusiness();   
+            ucEtudiant.DataContext = selleBusiness;
 
         }
 
@@ -76,5 +77,7 @@ namespace Demo2
             AnyName();
 
         }
+
+       
     }
 }
