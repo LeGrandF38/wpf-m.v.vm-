@@ -43,8 +43,8 @@ namespace Demo2
             LoginBusiness loginBusiness = new LoginBusiness();
 
             ucLogin.DataContext = loginBusiness;
-
-            grContent.Children.Add(ucLogin);
+            
+            grHome.Children.Add(ucLogin);
 
         }
         View.MyUserControls.UcEtudiant ucEtudiant;

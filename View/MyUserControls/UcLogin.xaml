@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:Demo2.View.MyUserControls"
              mc:Ignorable="d" 
              d:DesignHeight="250" d:DesignWidth="500">
-    <Grid>
+    <Grid Background="#FF32AC0D">
         <Grid.RowDefinitions>
             <RowDefinition Height="56*"/>
             <RowDefinition Height="145*"/>

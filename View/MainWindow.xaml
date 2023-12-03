@@ -7,7 +7,7 @@
         xmlns:MyUserControls="clr-namespace:Demo2.View.MyUserControls" x:Class="Demo2.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="grHome2">
         <Grid.RowDefinitions>
             <RowDefinition Height="46.004"/>
             <RowDefinition/>
@@ -17,6 +17,7 @@
         <Button x:Name="btnLogout" Content="Logout" Margin="0,0,10,0" VerticalAlignment="Center" Height="26" HorizontalAlignment="Right" Width="96" Click="btnLogout_Click"/>
         <Grid x:Name="grContent" Grid.Row="1" Background="#FFD5BBBB">
          </Grid>
+        <Grid x:Name="grHome" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>

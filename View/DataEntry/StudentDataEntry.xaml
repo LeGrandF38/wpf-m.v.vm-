@@ -19,16 +19,25 @@
             <RowDefinition Height="77*"/>
             <RowDefinition Height="123*"/>
         </Grid.RowDefinitions>
-        <Label Content="Nom" HorizontalAlignment="Left" VerticalAlignment="Center" Width="157" Height="34" Grid.Row="1" Margin="100,0,0,0"/>
-        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Center" Width="146" Grid.Row="1" Height="34" Grid.Column="1"/>
-        <Label Content="Prenom" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Height="34" Grid.Row="2" Margin="100,30,0,0"/>
-        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Height="34" Grid.Row="3" Margin="100,21,0,0"/>
-        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Center" Width="157" Height="34" Grid.Row="4" Margin="100,0,0,0"/>
-        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="{Binding Prenom}" VerticalAlignment="Center" Width="146" Grid.Row="2" Height="34" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="{Binding Email}" VerticalAlignment="Top" Width="146" Grid.Row="3" Height="34" Grid.Column="1" Margin="0,21,0,0"/>
-        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="{Binding Password}" VerticalAlignment="Center" Width="146" Grid.Row="4" Height="34" Grid.Column="1"/>
-        <Button x:Name="btnEnregister" Content="Enregistrer" Click="btnEnregistrer_click" HorizontalAlignment="Left" Margin="23,16,0,0" Grid.Row="5" VerticalAlignment="Top" Grid.Column="1" Height="31" Width="86" />
-        <Button x:Name="btnAnnuler" Grid.Column="1" Content="Annuler" Click="btnAnnuler_click" HorizontalAlignment="Left" Margin="227,16,0,0" Grid.Row="5" VerticalAlignment="Top" Height="31" Width="71"/>
+        <Label Content="Nom" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Height="34" Grid.Row="1" Margin="232,10,0,0"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Name}" VerticalAlignment="Center" Width="146" Grid.Row="1" Height="34" Grid.Column="1" Margin="10,0,0,0"/>
+        <Label Content="Prenom" HorizontalAlignment="Left" VerticalAlignment="Center" Width="157" Height="34" Grid.Row="2" Margin="232,0,0,0"/>
+        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Center" Width="157" Height="34" Grid.Row="3" Margin="232,0,0,0"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Center" Width="157" Height="34" Grid.Row="4" Margin="232,0,0,0"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Prenom}" VerticalAlignment="Center" Width="146" Grid.Row="2" Height="34" Grid.Column="1" Margin="10,0,0,0"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Email}" VerticalAlignment="Center" Width="146" Grid.Row="3" Height="34" Grid.Column="1" Margin="10,0,0,0"/>
+        <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Password}" VerticalAlignment="Top" Width="146" Grid.Row="4" Height="34" Grid.Column="1" Margin="10,33,0,0"/>
+        <Button x:Name="btnEnregister" Content="Enregistrer" Click="btnEnregistrer_click" HorizontalAlignment="Left" Margin="303,10,0,0" Grid.Row="5" VerticalAlignment="Top" Height="31" Width="86" />
+        <Button x:Name="btnAnnuler" Grid.Column="1" Content="Annuler" Click="btnAnnuler_click" HorizontalAlignment="Left" Margin="16,12,0,0" Grid.Row="5" VerticalAlignment="Top" Height="31" Width="83" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.686"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
 
     </Grid>
 </Window>

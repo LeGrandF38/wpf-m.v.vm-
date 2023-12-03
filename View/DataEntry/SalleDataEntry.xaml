@@ -11,8 +11,10 @@
             <ColumnDefinition Width="77*"/>
             <ColumnDefinition Width="83*"/>
         </Grid.ColumnDefinitions>
-        <Label Content="Numero de Salle" HorizontalAlignment="Left" Margin="83,56,0,0" VerticalAlignment="Top" Height="31" Width="151"/>
-        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="154,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="154" Height="31"/>
+        <Label Content="Numero de Salle" HorizontalAlignment="Left" Margin="223,173,0,0" VerticalAlignment="Top" Height="31" Width="152"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Margin="15,173,0,0" TextWrapping="Wrap" Text="{Binding Number}" VerticalAlignment="Top" Width="154" Height="31"/>
+        <Button Content="Enregistrer" HorizontalAlignment="Left" Margin="289,243,0,0" VerticalAlignment="Top" Height="30" Width="76"/>
+        <Button Content="Annuler" HorizontalAlignment="Left" Margin="27,243,0,0" VerticalAlignment="Top" Height="30" Width="76" Grid.Column="1" Click="Button_Click"/>
 
     </Grid>
 </Window>

@@ -39,6 +39,7 @@ namespace Demo2.View.MyUserControls
 
 
             mainWindow.grContent.Children.Add(ucEtudiant);
+            mainWindow.grHome.Children.Clear();
             
 
 
