@@ -39,5 +39,33 @@ namespace Demo2.View.MyUserControls
              
             }
         }
+
+        private void btn_Editer_Click(object sender, RoutedEventArgs e)
+        {
+            Business.ETudiantBusiness bs = this.DataContext as Business.ETudiantBusiness;
+            if (bs.SelectedStudent!=null)
+            {
+                View.DataEntry.StudentDataEntry dataEntry = new DataEntry.StudentDataEntry();
+                dataEntry.DataContext = bs.SelectedStudent;
+                dataEntry.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Sellectionnez un element");
+            }
+        }
+
+        private void btnDeleteEtudiant_Click(object sender, RoutedEventArgs e)
+        {
+            Business.ETudiantBusiness bs = this.DataContext as Business.ETudiantBusiness;
+            if (bs.SelectedStudent != null)
+            {
+              bs.ListOfStudent.Remove(bs.SelectedStudent);
+            }
+            else
+            {
+                MessageBox.Show("Sellectionnez un element");
+            }
+        }
     }
 }

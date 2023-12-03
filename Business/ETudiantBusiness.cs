@@ -12,6 +12,9 @@ namespace Demo2.Business
     {
         //public List<Etudiant>   ListOfStudent { get; set; }
         public ObservableCollection<Etudiant> ListOfStudent { get; set; }
+
+        public Etudiant SelectedStudent { get; set; }
+
         public ETudiantBusiness()
         {
             ListOfStudent = new ObservableCollection<Etudiant>();

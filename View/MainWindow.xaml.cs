@@ -47,8 +47,15 @@ namespace Demo2
 
         }
 
+        private void btnGestionEtudiant(object sender, RoutedEventArgs e)
+        {
+            ETudiantBusiness etudiantBusiness = new ETudiantBusiness();
+            UcEtudiant ucEtudiant = new UcEtudiant();
+            ucEtudiant.DataContext = etudiantBusiness;
 
-       
+
+        }
+
         private void btnGestionSalle_click(object sender, RoutedEventArgs e)
         {
             UcSalle ucSalle = new UcSalle();
@@ -59,20 +66,14 @@ namespace Demo2
 
         }
 
+        
+
+        
         private void btnLogout_Click(object sender, RoutedEventArgs e)
         {
             grContent.Children.Clear();
 
             AnyName();
-
-        }
-
-        private void btnGestionEtudiant(object sender, RoutedEventArgs e)
-        {
-            ETudiantBusiness etudiantBusiness = new ETudiantBusiness();
-            UcEtudiant ucEtudiant = new UcEtudiant();
-            ucEtudiant.DataContext = etudiantBusiness;
-
 
         }
     }
