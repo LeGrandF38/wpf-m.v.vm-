@@ -16,7 +16,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid HorizontalAlignment="Center" Height="179" Grid.Row="1" VerticalAlignment="Top" Width="84" Margin="0,114,0,0">
-            <Button Content="Add Student" VerticalAlignment="Top" Height="34"/>
+            <Button x:Name="btnAjouterEtudiant" Content="Add Student" VerticalAlignment="Top" Height="34" Click="btnAjouterEtudiant_Click"/>
             <Button Content="Edit Student" HorizontalAlignment="Center" Margin="0,49,0,0" VerticalAlignment="Top" Height="35" Width="83"/>
             <Button Content="Delete Student" HorizontalAlignment="Center" Margin="0,89,0,0" VerticalAlignment="Top" Height="39"/>
         </Grid>

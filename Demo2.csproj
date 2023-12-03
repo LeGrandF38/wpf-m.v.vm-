@@ -60,6 +60,9 @@
     <Compile Include="Business\SalleBusiness.cs" />
     <Compile Include="Model\Etudiant.cs" />
     <Compile Include="Model\Salle.cs" />
+    <Compile Include="View\DataEntry\StudentDataEntry.xaml.cs">
+      <DependentUpon>StudentDataEntry.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\MyUserControls\UcEtudiant.xaml.cs">
       <DependentUpon>UcEtudiant.xaml</DependentUpon>
     </Compile>
@@ -69,6 +72,10 @@
     <Compile Include="View\MyUserControls\UcSalle.xaml.cs">
       <DependentUpon>UcSalle.xaml</DependentUpon>
     </Compile>
+    <Page Include="View\DataEntry\StudentDataEntry.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

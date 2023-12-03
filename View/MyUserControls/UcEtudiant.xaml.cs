@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo2.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,20 @@ namespace Demo2.View.MyUserControls
         public UcEtudiant()
         {
             InitializeComponent();
+        }
+
+        private void btnAjouterEtudiant_Click(object sender, RoutedEventArgs e)
+        {
+            Etudiant etudiant = new Etudiant();
+            View.DataEntry.StudentDataEntry dataEntry = new View.DataEntry.StudentDataEntry();
+            dataEntry.DataContext = etudiant;
+            if (dataEntry.ShowDialog() == true)
+            {
+               
+                Business.ETudiantBusiness bs = this.DataContext as Business.ETudiantBusiness;
+                bs.ListOfStudent.Add(etudiant);
+             
+            }
         }
     }
 }

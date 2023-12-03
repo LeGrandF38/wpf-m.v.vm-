@@ -1,6 +1,7 @@
 ﻿using Demo2.Model;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,12 +12,12 @@ namespace Demo2.Business
     {
 
         #region proprietes
-        public List<Salle> ListOfSalle { get; set; }
+        public ObservableCollection<Salle> ListOfSalle { get; set; }
         #endregion
         #region constructeur
         public SalleBusiness()
         {
-            ListOfSalle = new List<Salle>();
+            ListOfSalle = new ObservableCollection<Salle>();
 
             for (int i = 0; i < 10; i++)
             {

@@ -12,8 +12,8 @@
             <RowDefinition Height="46.004"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Content="Gestion Etudiant" HorizontalAlignment="Left" Margin="41,0,0,0" VerticalAlignment="Center" Height="26" Width="160"/>
-        <Button Content="Gestion Salle" HorizontalAlignment="Left" Margin="246,0,0,0" VerticalAlignment="Center" Height="26" Width="168"/>
+        <Button Content="Gestion Etudiant" Click="btnGestionEtudiant" HorizontalAlignment="Left" Margin="41,0,0,0" VerticalAlignment="Center" Height="26" Width="160"/>
+        <Button Content="Gestion Salle" Click="btnGestionSalle_click" HorizontalAlignment="Left" Margin="246,0,0,0" VerticalAlignment="Center" Height="26" Width="168"/>
         <Button x:Name="btnLogout" Content="Logout" Margin="0,0,10,0" VerticalAlignment="Center" Height="26" HorizontalAlignment="Right" Width="96" Click="btnLogout_Click"/>
         <Grid x:Name="grContent" Grid.Row="1" Background="#FFD5BBBB">
          </Grid>

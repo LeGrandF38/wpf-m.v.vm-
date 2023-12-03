@@ -1,5 +1,4 @@
-﻿using Demo2.Business;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,25 +10,31 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Demo2.View.MyUserControls
+namespace Demo2.View.DataEntry
 {
     /// <summary>
-    /// Interaction logic for UcSalle.xaml
+    /// Logique d'interaction pour StudentDataEntry.xaml
     /// </summary>
-    public partial class UcSalle : UserControl
+    public partial class StudentDataEntry : Window
     {
-        public UcSalle()
+        public StudentDataEntry()
         {
             InitializeComponent();
-           
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
+       
 
+        private void btnEnregistrer_click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = true;
+
+        }
+
+        private void btnAnnuler_click(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult= false;
         }
     }
 }

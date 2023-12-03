@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\obj\Debug\
+C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\obj\Debug\
 Demo2
 none
 false
 DEBUG;TRACE
-B:\CODES\ENSI 2023-2024\DotNet\CC1\Demo2\App.xaml
-4-1932260080
+C:\Users\issad\Documents\FAYCAL F38\Codes\wpf-m.v.vm-\App.xaml
+5-1602608544
 
-14-1762150273
+15-1811449013
 13-1310406943
-View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;View\MyUserControls\UcSalle.xaml;
+View\DataEntry\StudentDataEntry.xaml;View\MainWindow.xaml;View\MyUserControls\UcEtudiant.xaml;View\MyUserControls\UcLogin.xaml;View\MyUserControls\UcSalle.xaml;
 
-False
+True
 

@@ -9,10 +9,14 @@ namespace Demo2.Business
 {
     public class LoginBusiness
     {
-        public Etudiant etudiant { get; set; } 
+        public Etudiant etudiant { get; set; }
+
+        
+
         public LoginBusiness()
         {
             etudiant = new Etudiant();
+            
         }
     }
 }
